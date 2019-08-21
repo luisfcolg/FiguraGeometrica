@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ConsolaFiguraGeometrica.Interface;
+using ConsolaFiguraGeometrica.Modelo;
 
 namespace ConsolaFiguraGeometrica
 {
@@ -11,7 +12,9 @@ namespace ConsolaFiguraGeometrica
     {
         static void Main(string[] args)
         {
-            //gg
+            var cuadrado = new Cuadrado(5);
+            MostrarInformacion(cuadrado);
+            Console.ReadKey();
         }
 
         static void MostrarInformacion(IFiguraGeometrica figura)
