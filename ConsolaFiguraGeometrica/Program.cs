@@ -11,6 +11,7 @@ namespace ConsolaFiguraGeometrica
     {
         static void Main(string[] args)
         {
+            //gg
         }
 
         static void MostrarInformacion(IFiguraGeometrica figura)
